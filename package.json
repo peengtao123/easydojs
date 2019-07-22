@@ -1,0 +1,17 @@
+{
+  "name": "easydo",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "easydo": "./bin/easydo"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@peengtao123/myad": "^1.0.0"
+  }
+}
