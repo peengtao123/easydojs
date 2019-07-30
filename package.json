@@ -1,6 +1,6 @@
 {
   "name": "easydo",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "",
   "bin": {
     "easydo": "./bin/easydo"
@@ -13,7 +13,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@peengtao123/myad": "^1.0.0",
     "commander": "^2.20.0"
   }
 }

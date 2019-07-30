@@ -1,7 +1,5 @@
 var program = require('commander');
 
-console.log("hello world")
-
 program
     .version('0.1.0')
     .option('-C, --chdir <path>', 'change the working directory')
@@ -33,10 +31,11 @@ program
         console.log('  $ deploy exec async');
     });
 
-program
-    .command('*')
-    .action(function (env) {
-        console.log('deploying "%s"', env);
-    });
 
+
+var args = process.argv;
+if(args.length == 2){
+    args.push("-h")
+}
+console.log(args)
 program.parse(process.argv);
